@@ -1,27 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+	<link 
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
+	rel="stylesheet" 
+	integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
+	crossorigin="anonymous"
+>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="./css/style.css">
 	<script defer src="./js/app.js"></script>
 	<title>Tic Tac Toe</title>
+
 </head>
+<nav>
+	<ul class="nav">
+		<li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="#">Home</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Contact us</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">About Us</a>
+		</li>
+		
+		
+	</ul>
+</nav>
+
 <body>
 	<h1>Tic-Tac-Toe</h1>
 	<h2 id="message">Message</h2>
-
+	
 	<section class="board">
-		<div id="sq0"></div>
-		<div id="sq1"></div>
-		<div id="sq2"></div>
-		<div id="sq3"></div>
-		<div id="sq4"></div>
-		<div id="sq5"></div>
-		<div id="sq6"></div>
-		<div id="sq7"></div>
-		<div id="sq8"></div>
-	</section>    
+		<div id="sq0" class="square"></div>
+		<div id="sq1" class="square"></div>
+		<div id="sq2" class="square"></div>
+		<div id="sq3" class="square"></div>
+		<div id="sq4" class="square"></div>
+		<div id="sq5" class="square"></div>
+		<div id="sq6" class="square"></div>
+		<div id="sq7" class="square"></div>
+		<div id="sq8" class="square"></div>
+	</section> 
+
+	<form id="form">  
+	<button class="btn btn-danger" id="reset-button" type="reset">Reset</button>
+</form>
 </body>
+<footer>Thank You for Playing</footer>
 </html>
